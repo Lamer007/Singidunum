@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'AR One Sans', sans-serif;
+    background-color: aquamarine;
+}
+
+header {
+    display: inline-flex;
+    outline-width: 2px;
+    outline-color: #ff4545;
+    outline-style: inset;
+    box-shadow: 0px 8px 12px #ff4545;
+}
+
+header img {
+    padding-left: 10px;
+    width: 15%;
+}
+
+header nav ul {
+    list-style: none;
+
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #ff4545;
+}
+
+header nav ul a:hover {
+    color: white;
+
+}
+
+header nav ul a li {
+    display: inline-flex;
+    padding-top: 35px;
+    margin-right: 40px;
+}
+
+.video {
+    padding-top: 20px;
+    background-color: white;
+    align-content: center;
+}
+
+.video iframe {
+    padding-left: 33%;
+    padding-right: 33%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.centet1 {
+    display: inline-block;
+    width: 18%;
+    padding-top: 10px;
+    padding-left: 5%;
+}
+
+.centet1 img {
+    width: 100%;
+}
+
+.centet1 p {
+    color: white;
+}
+
+.singin {
+    background-color: white;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.singin h1 {
+    color: #ff4545;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.singin form label {
+    padding-bottom: 10px;
+    display: block;
+}
+
+.singin img {
+    float: right;
+    width: 25%;
+}    
+
+.centent2 {
+    display: inline-block;
+}
+
+footer {
+    padding-left: 10px;
+}
+
+footer p {
+    color: #ff4545;
+}

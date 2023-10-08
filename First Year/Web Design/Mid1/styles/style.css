@@ -1,0 +1,117 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header nav ul{
+    list-style: none;
+    text-align: center;
+    
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul a li {
+    display: inline-block;
+    margin: 30px;
+}
+
+.image1 img {   
+    width: 100%;
+}
+
+.surface-text {
+    width: 100%;
+    height: 400px;
+
+}
+
+.surface-text p {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.surface-text h1 {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 30px;
+}
+
+.surface-text h2 {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 30px;
+}
+
+.three-elements {
+    background-color: grey;
+    width: 100%;
+    height: 350px;
+}
+
+.three-elements h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.three-elements p {
+    color: white;
+}
+
+.col1 {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    padding: 5%;
+}
+
+.technology-text {
+    width: 100%;
+    height: 409px;
+}
+
+.col2 {
+    display: inline-block;
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.col2 h2 {
+    font-size: 30px;
+}
+
+.col2 img {
+    height: 409px;
+    
+}
+
+.map {
+    height: 508px;
+    background-color: grey;
+}
+
+.contact {
+    text-align: center;
+    padding: 10%;
+}
+
+.contact h2 {
+    color: grey;
+}
+
+
+footer {
+    height: 315px;
+    background-color: rgb(44, 44, 44);
+}
+
+footer h3 {
+    color: white;
+    text-align: center;
+}
