@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <meta name="keywords" content="tickets, flight ticket, tourist destination">
+    <meta name="author" content="Aleksei Moiseev">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue" rel="stylesheet">
+    <link rel="stylesheet" href="styles/contacts.css">
+    <script src="js/contacts.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="video-gallery.html">Video Gallery</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contacts.html" class="here">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main">
+        <h1>Contacts</h1>
+        <div class="contacts">
+            <div class="txt">
+                <p>Phone: +381628723038</p>
+                <p>Email: aleksei.moiseev.23@singimail.rs</p>
+                <p>Belgrade: Obalskih Radnika 4a</p>
+                <p>Novi Sad: Javreiska 36</p>
+                <p>You can find our more accurate location <a href="location.html">here</a></p>
+            </div>
+            <img src="img/calling-center.jpg" alt="calling center">
+        </div>
+        <div class="cform">
+            <h2>Contact form</h2>
+            <p>If you have some problem with site or ticket reservations, feel free to write to us via our contact form!
+            </p>
+            <form>
+                <input type="text" class="email" id="email" placeholder="Email" onkeydown="checkEmail()">
+                <br>
+                <textarea id="text" placeholder="Your problem"></textarea>
+            </form>
+            <button type="button" onclick="validateForm();">Submit</button>
+            <p id="not" class="not"></p>
+        </div>
+
+    </div>
+
+    <footer>
+        <a href="https://github.com/Lamer007/Singidunum/tree/main/First%20Year/Web%20Design/FinalProject">&copy; 2023
+            Aleksei Moiseev 2023230211</a>
+    </footer>
+</body>

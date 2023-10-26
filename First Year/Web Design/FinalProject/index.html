@@ -3,16 +3,151 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Final Project</title>
+    <title>AviaVoyage Hub</title>
+    <meta name="keywords" content="tickets, flight ticket, tourist destination">
+    <meta name="author" content="Aleksei Moiseev">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue" rel="stylesheet">
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="js/script.js"></script>
+    <script src="js/api.js" type="module"></script>
 </head>
 
 <body>
     <header>
-
+        <nav>
+            <ul>
+                <li><a href="index.html" class="here">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="video-gallery.html">Video Gallery</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <footer>
-        
-    </footer>
+    <div class="main">
+        <div class="welcome">
+            <img src="img/sky1.jpg" alt="sky">
+            <div class="txt">
+                <h1>AviaVoyage Hub</h1>
+                <p>Fly with Ease, Explore with FlightWander.</p>
+            </div>
+        </div>
+        <div class="tickets">
+            <h2>Tourist destination</h2>
+            <form>
+                <input type="text" placeholder="From" id="from" onkeydown="checkCityFrom();">
+                <br><span id="lfrom"></span><br>
+                <input type="text" id="date" onkeydown="checkDate();" placeholder="Date">
+                <br><span id="ldate"></span><br>
+                <select name="type" id="type">
+                    <option value="economy">Economy</option>
+                    <option value="business">Business</option>
+                </select>
+                <br><br>
+                <select name="currency" id="currency">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+                <br><br>
+                <input type="text" id="to" placeholder="To" onkeydown="checkCityTo();">
+                <br><span id="lto"></span><br>
+                <input type="text" id="adult" placeholder="Adult" onkeydown="checkAdult();">
+                <br><span id="ladult"></span><br>
+                <input type="text" id="child" placeholder="Child" onkeydown="checkChild();">
+                <br><span id="lchild"></span><br>
+                <input type="text" id="infant" placeholder="Infant" onkeydown="checkInfant();">
+                <br><span id="linfant"></span><br>
+            </form>
+            <button type="button" onclick="validateForm();">Show options</button>
+        </div>
+
+        <h2 id="suc"></h2>
+
+        <div class="dest">
+            <div class="col2">
+                <p id="flight-code0"></p>
+                <p id="flight-name0"></p>
+                <p id="Dtime0"></p>
+                <p id="Dtime-zone0"></p>
+            </div>
+            <div class="col2">
+                <p id="duration0"></p>
+                <p id="price0"></p>
+                <p id="Atime0"></p>
+                <p id="Atime-zone0"></p>
+            </div>
+        </div>
+
+        <div class="dest">
+            <div class="col2">
+                <p id="flight-code1"></p>
+                <p id="flight-name1"></p>
+                <p id="Dtime1"></p>
+                <p id="Dtime-zone1"></p>
+            </div>
+            <div class="col2">
+                <p id="duration1"></p>
+                <p id="price1"></p>
+                <p id="Atime1"></p>
+                <p id="Atime-zone1"></p>
+            </div>
+        </div>
+
+        <div class="dest">
+            <div class="col2">
+                <p id="flight-code2"></p>
+                <p id="flight-name2"></p>
+                <p id="Dtime2"></p>
+                <p id="Dtime-zone2"></p>
+            </div>
+            <div class="col2">
+                <p id="duration2"></p>
+                <p id="price2"></p>
+                <p id="Atime2"></p>
+                <p id="Atime-zone2"></p>
+            </div>
+        </div>
+
+        <div class="dest">
+            <div class="col2">
+                <p id="flight-code3"></p>
+                <p id="flight-name3"></p>
+                <p id="Dtime3"></p>
+                <p id="Dtime-zone3"></p>
+            </div>
+            <div class="col2">
+                <p id="duration3"></p>
+                <p id="price3"></p>
+                <p id="Atime3"></p>
+                <p id="Atime-zone3"></p>
+            </div>
+        </div>
+
+        <div class="dest">
+            <div class="col2">
+                <p id="flight-code4"></p>
+                <p id="flight-name4"></p>
+                <p id="Dtime4"></p>
+                <p id="Dtime-zone4"></p>
+            </div>
+            <div class="col2">
+                <p id="duration4"></p>
+                <p id="price4"></p>
+                <p id="Atime4"></p>
+                <p id="Atime-zone4"></p>
+            </div>
+        </div>
+
+        <footer>
+            <a href="https://github.com/Lamer007/Singidunum/tree/main/First%20Year/Web%20Design/FinalProject">&copy;
+                2023 Aleksei Moiseev 2023230211</a>
+        </footer>
 </body>

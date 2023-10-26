@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100%;
+    font-family: 'Bebas Neue'
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+}
+
+header {
+    background-color: #65BF85;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 15px 0px 15px;
+    font-size: 30px;
+}
+
+header nav ul li a:hover {
+    color: #79F2AE;
+    font-size: 31px;
+}
+
+.here {
+    color: #B6D0F2;
+}
+
+.here:hover {
+    color: #7A8CBF;
+}
+
+.main {
+    text-align: center;
+    padding: 40px 5% 40px 5%;
+}
+
+.col {
+    padding: 20px 0px 20px 0px;
+}
+
+.col p {
+    padding-top: 20px;
+}
+
+.two-image {
+    display: inline-block;
+}
+
+.two-image img {
+    width: 33%;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    box-shadow: 7px 7px 7px gray;
+    border-radius: 20px;
+}
+
+.com {
+    height: 250px;
+    display: flex;
+    padding: 100px 10% 100px 10%;
+}
+
+.com img {
+    border-radius: 20px;
+}
+
+.txt {
+    box-shadow: 7px 7px 7px gray;
+    border-radius: 20px;
+    margin-left: 30px;
+    background-color: #B6D0F2;
+    text-align: left;
+    padding: 20px;
+}
+
+.grey {
+    color: grey;
+}
+
+footer {
+    background-color: #65BF85;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+footer a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #79F2AE;
+    font-size: 21px;
+}

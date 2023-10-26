@@ -1,7 +1,12 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
 body {
-    border:0; 
-    margin:0; 
-    padding:0; 
+    border:0px; 
+    margin:0px; 
+    padding:0px; 
     outline: none; 
     border-collapse: collapse;
     font-family: 'AR One Sans', sans-serif;
