@@ -1,15 +1,3 @@
 ﻿  Battleship.c
-C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\FinalProject\Battleship.c(53,22): warning C4013: time: нет определения; предполагается "extern" с возвратом типа "int"
-C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\FinalProject\Battleship.c(169,11): warning C4476: "printf": неизвестный символ поля типа "\xd1" в описателе формата
-C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\FinalProject\Battleship.c(169,19): warning C4474: "printf" : для строки формата передано слишком много аргументов
-C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\FinalProject\Battleship.c(169,19): message : заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
-C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\FinalProject\Battleship.c(181,29): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char [8][8]"
-C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\FinalProject\Battleship.c(181,22): warning C4024: displayBoard: различные типы для формального и фактического параметров 1
-C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\FinalProject\Battleship.c(184,29): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char [8][8]"
-C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\FinalProject\Battleship.c(184,22): warning C4024: displayBoard: различные типы для формального и фактического параметров 1
-C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\FinalProject\Battleship.c(193,28): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char [8][8]"
-C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\FinalProject\Battleship.c(193,21): warning C4024: displayBoard: различные типы для формального и фактического параметров 1
-C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\FinalProject\Battleship.c(196,30): warning C4047: функция: "char *" отличается по уровням косвенного обращения от "char [8][8]"
-C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\FinalProject\Battleship.c(196,23): warning C4024: displayBoard: различные типы для формального и фактического параметров 1
-C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\FinalProject\Battleship.c(153): warning C4716: checkWin: должна возвращать значение
+C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\FinalProject\Battleship.c(24,22): warning C4013: time: нет определения; предполагается "extern" с возвратом типа "int"
   FinalProject.vcxproj -> C:\Users\Alex\Documents\GitHub\LamerSingidunum\First Year\Principles of computer programming\FinalProject\x64\Debug\FinalProject.exe
