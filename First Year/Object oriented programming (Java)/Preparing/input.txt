@@ -1,0 +1,3 @@
+2 3 Madrid Barcelona
+2 2 Belgrade Voronegh
+1 0 Sun-Diego Las-Vegas
